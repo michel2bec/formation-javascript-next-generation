@@ -1,5 +1,8 @@
 # TP 01 Calcul de l'IMC
 ![alt text](../tp1.webp)
+**Live preview**
+https://www.sevenvalley.fr/tp-javascript/tp1  
+
 ## ETAPE 1  
 - Saisir le poids en kg
 - Saisir la taille en m
