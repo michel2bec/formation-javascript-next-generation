@@ -4,7 +4,7 @@
 
 ## Créer un jeux pour téléphone portable
 
-- Créer un tableau d'entier de 0 à 11
+- Créer un tableau d'entier de 0 à 11  
 | **indice** |  
 |:-: |  
 |   **valeur** |  
