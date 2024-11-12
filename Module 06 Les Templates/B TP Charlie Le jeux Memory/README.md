@@ -6,8 +6,8 @@
   
 ## Créer un jeux pour téléphone portable !
 
-- Créer un tableau d'entier de 0 à 11    
-- Créer un tableau d'entier d'une longueur de 24   
+- Créer un tableau 1 de 12 entier (de 0 à 11)    
+- Créer un tableau 2 : d'entier d'une longueur de 24   
 contenant 2 fois des entiers de 0 à 11  
 - Mélanger ce tableau  
 - Afficher les images correspondant au nombre dans le tableau  
@@ -19,8 +19,13 @@ contenant 2 fois des entiers de 0 à 11
 - Relancer la partie  
 
 
+**tableau 1 :de 11 entier**  
+| **indice** | 0 | 1 | 2 |3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |
+| **valeur** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  
 
-| **indice** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |    
-|:-: |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |  
-| **valeur** | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |   
+**tableau 2 de longueur 24 entier**  
 
+| **indice** | 0 | 1 | 2 |3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |
+| **valeur** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 
