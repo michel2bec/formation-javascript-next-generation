@@ -1,7 +1,7 @@
 # TP Alpha Conso Voiture
+**Live preview**  : 
+[Tester le TP Alpha](https://www.sevenvalley.fr/tp-javascript/tpa) 
 
-**Live preview**  :  
-https://www.sevenvalley.fr/tp-javascript/tpa   
 
 ## Partie 1
 ![alt text](tp-apha-1.webp) 

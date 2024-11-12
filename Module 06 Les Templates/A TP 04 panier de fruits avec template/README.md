@@ -1,6 +1,6 @@
 # TP 03 Liste de fruits
 **live preview** :  
-[Tester le TP 3](https://www.sevenvalley.fr/tp-javascript/tp3) 
+[Tester le TP 4](https://www.sevenvalley.fr/tp-javascript/tp4) 
   
 ![alt text](../tp4.webp) 
 # Partie 1

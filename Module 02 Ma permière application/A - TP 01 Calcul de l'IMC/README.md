@@ -9,9 +9,11 @@
 ## ETAPE 1  
 - Saisir le poids en kg
 - Saisir la taille en m
-  
-imc = poids / (taille*taille)
-  
+- Afficher l'IMC à un chiffre après le virgule
+
+
+**imc = poids / (taille*taille)**  
+par exemple :   
 80kg / (1.8m* 1.8m) = 25
   
 Si imc < 18.5 je suis en tranche maigreur      
@@ -27,6 +29,6 @@ https://fr.wikipedia.org/wiki/Indice_de_masse_corporelle
 Intégrer la maquette bootstrap   : **imc-maquette.html**
 
 ## BONUS :  
-Afficher le poids à atteindre
-Afficher le nombre de kg à perdre
+- Afficher le poids Idéal
+- Afficher le nombre kg à perdre ou gagner 
   
