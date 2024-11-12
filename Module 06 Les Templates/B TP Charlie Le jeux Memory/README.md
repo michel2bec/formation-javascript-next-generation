@@ -8,7 +8,8 @@
 
 - Créer un tableau 1 de 12 entier (de 0 à 11)    
 - Créer un tableau 2 : d'entier d'une longueur de 24   
-contenant 2 fois des entiers de 0 à 11  
+contenant 2 fois des entiers de 0 à 11
+- Vous devez créer le tableau 2 en concaténant le tableau 1 ( tab2 = tab1 + tab1)  
 - Mélanger ce tableau  
 - Afficher les images correspondant au nombre dans le tableau  
 - Effacer une image lors d'un clique  
