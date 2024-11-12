@@ -51,3 +51,16 @@ Je met surbrillance puis x le nombre d'occurance
 
 # mettre en commentaire plusieurs lignes
 <kbd>Ctrl</kbd> +  <kbd>/</kbd>
+
+# lien utiles
+Bootstrap 
+https://getbootstrap.com/docs/5.0/components/buttons/
+
+LayouIt le builder :  
+https://build.layoutit.com/
+
+Customize bootstrap avec bootswatch 
+https://bootswatch.com/
+
+Des template gratuit déjà fait 
+https://startbootstrap.com/templates/landing-pages
