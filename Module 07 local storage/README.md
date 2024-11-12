@@ -18,7 +18,7 @@ localStorage.couleur ='rouge';
 ```
 **Bonne pratique**
 ```js
-localStorage.setItems('couleur','rouge');
+localStorage.setItem('couleur','rouge');
 ```
 
 ## 2 - Lecture du  le local Storage
@@ -42,7 +42,7 @@ Le local Storage ne stoque que des chaînes de caractères
 Il faut donc serialiser avec <code>JSON.stringify()</code>    
 ```js
 const fruits=['pomme','poire','cerise'];
-localStorage.setItems('fruits',JSON.stringify(fruits));
+localStorage.setItem('fruits',JSON.stringify(fruits));
 ```
 
 ## 4 - Lire un objet ou un tableau dans le local Storage
@@ -59,9 +59,9 @@ if (data){
 
 
 ```js
-const data = localStorage.getItems('couleurs');
+const data = localStorage.getItem('couleurs');
 if (data){
-   localStorage.removeItems('couleurs');
+   localStorage.removeItem('couleurs');
 }
 ```
 <code>clear()</code> vide tout 
@@ -75,7 +75,7 @@ Il suffit donc de remplacer <code>localStorage</code> par <code>SessionStorage</
 Les JSON web token sont à stocker le sessionStorage plutot que localStorage  
 **Ecriture**
 ```js
-sessionStorage.setItems('couleur','rouge');
+sessionStorage.setItem('couleur','rouge');
 ```
 **Lecture**
 ```js
