@@ -10,7 +10,7 @@
 - Créer un tableau d'entier d'une longueur de 24   
 contenant 2 fois des entiers de 0 à 11  
 - Mélanger ce tableau  
-- Afficher les images correnspondant au nombre dans le tableau  
+- Afficher les images correspondant au nombre dans le tableau  
 - Effacer une image lors d'un clique  
 - Effacer les 2 mêmes images  
 - Eviter le bug lorsque je clique 2 fois sur la mmême image  
@@ -20,9 +20,9 @@ contenant 2 fois des entiers de 0 à 11
 
 
 
-| **indice** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  
-|:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |  
-|   **valeur** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  
+| **indice** |  
+|:-: |  
+|   **valeur** |  
 
 | **indice** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  
 |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |  
