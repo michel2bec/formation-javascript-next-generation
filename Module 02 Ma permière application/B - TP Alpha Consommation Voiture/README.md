@@ -1,4 +1,8 @@
-# TP Alpha
+# TP Alpha Conso Voiture
+
+**Live preview**  :  
+https://www.sevenvalley.fr/tp-javascript/tpa   
+
 ## Partie 1
 ![alt text](tp-apha-1.webp) 
 - créer un formulaire en javascript

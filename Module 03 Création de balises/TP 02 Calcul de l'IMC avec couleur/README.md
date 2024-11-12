@@ -1,4 +1,7 @@
 # TP 02 IMC avec des couleurs
+**Live preview**  :  
+https://www.sevenvalley.fr/tp-javascript/tp2    
+  
 ![alt text](../tp2.webp)
 
 Créer la balise avec l'IMC et le conseil    

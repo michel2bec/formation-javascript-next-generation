@@ -1,6 +1,6 @@
 # Liens vers les TP LIVE PREVIEW
 https://www.sevenvalley.fr/tp-javascript  
-  
+
 # Planning
   
 ## JOUR 1

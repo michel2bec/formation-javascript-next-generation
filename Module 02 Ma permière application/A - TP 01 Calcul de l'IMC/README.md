@@ -1,5 +1,5 @@
 # TP 01 Calcul de l'IMC
-**Live preview**  
+**Live preview**  :  
 https://www.sevenvalley.fr/tp-javascript/tp1  
   
 ![alt text](../tp1.webp)
