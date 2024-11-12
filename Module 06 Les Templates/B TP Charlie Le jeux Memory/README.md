@@ -1,8 +1,10 @@
 # TP CHARLIE Le jeux memory
 **Live preview**  :    
-[Tester le TP Charlie](https://www.sevenvalley.fr/tp-javascript/tpc)
+[Tester le TP Charlie](https://www.sevenvalley.fr/tp-javascript/tpc)  
 
-## Créer un jeux pour téléphone portable
+![alt text](tpc.webp)
+  
+## Créer un jeux pour téléphone portable !
 
 - Créer un tableau d'entier de 0 à 11    
 - Créer un tableau d'entier d'une longueur de 24   
