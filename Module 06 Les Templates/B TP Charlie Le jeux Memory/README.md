@@ -29,3 +29,34 @@ contenant 2 fois des entiers de 0 à 11
 | **indice** | 0 | 1 | 2 |3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 21 | 23 |
 |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |
 | **valeur** | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 
+
+
+Objetif ajouter une carte au code html
+html de base :
+```html
+<body>
+	<div class="container">
+	</div>
+	<script src="jeux.js"></script>
+</body>
+```
+ Ajouter une tuile
+ ```html
+ <body>
+	<div class="container">
+		<div><img src="img/4.webp"></div>
+    </div>
+	<script src="jeux.js"></script>
+</body>
+```
+
+ Selectionner une tuile une tuile
+ ```html
+ <body>
+	<div class="container">
+			<div class="green"><img src="img/0.webp"></div>
+
+    </div>
+	<script src="jeux.js"></script>
+</body>
+```
