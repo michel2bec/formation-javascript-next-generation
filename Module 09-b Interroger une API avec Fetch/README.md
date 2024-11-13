@@ -107,7 +107,7 @@ const data = await response.json();
 console.log(data);
 ```
 
-# 5 Gestion des erreures avec try catch
+# 5 - Gestion des erreures avec try catch
 ```js
 const getData= async () => {
   const url = "https://example.org/products.json";
@@ -151,7 +151,7 @@ const film = await response.json();
 console.log(film);
 ```  
 
-# 8 -Afficher les 10 premier films avec  s=star wars
+# 8 - Afficher les 10 premier films avec  s=star wars
 Utiliser **s=...** **s=star wars**
 ```js
 const key = "efdc2275";
