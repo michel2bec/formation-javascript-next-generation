@@ -1,24 +1,3 @@
-# TP Delta Domotique CORRECTION
-**live preview** :  
-[Tester le TP Delta](https://www.sevenvalley.fr/tp-javascript/tpd) 
-
-![alt text](tpd.webp)
-
-## HTML
-```html
-  <template id="myLi">
-    <li class="list-group-item">
-      <h4></h4>
-      <button class="btn btn-success">ON</button>
-      <button class="ml-2 btn btn-danger">OFF</button>
-    </li>
-  </template>
-  <script src="delta.js"></script>
-</body>
-```
-
-## JAVASCRIPT
-```js
 //-----------------------------------------------
 // Classe Appareil
 class Appareil {
@@ -85,5 +64,3 @@ document.getElementById("btnSwitchAllOff").onclick = () => {
   afficherHTML()
 }
 
-
-```
