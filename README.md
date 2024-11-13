@@ -56,7 +56,7 @@ Je met surbrillance puis x le nombre d'occurance
 Bootstrap 
 https://getbootstrap.com/docs/5.0/components/buttons/
 
-LayouIt le builder :  
+LayouIt le builder :
 https://build.layoutit.com/
 
 Customize bootstrap avec bootswatch 
