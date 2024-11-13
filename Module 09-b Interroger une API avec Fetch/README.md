@@ -107,7 +107,25 @@ const data = await response.json();
 console.log(data);
 ```
 
-# 5 - Lecture d'un film avec omdbAPI
+# 5 Gestion des erreures avec try catch
+```js
+const getData= async () => {
+  const url = "https://example.org/products.json";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json = await response.json();
+    console.log(json);
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+```
+
+# 6 - Lecture d'un film avec omdbAPI
 Utiliser **t=...** **t=star wars** Le titre du film
 ```js
 const key = "efdc2275";
@@ -120,7 +138,7 @@ const film = await response.json();
 console.log(film);
 ```  
 
-# 6 - Lecture d'un film avec omdbAPI
+# 7 - Lecture d'un film avec omdbAPI
 Utiliser **i=...** **i=tt0080684** L'ID du film **ImdbID**
 ```js
 const key = "efdc2275";
@@ -133,7 +151,7 @@ const film = await response.json();
 console.log(film);
 ```  
 
-# 7 -Afficher les 10 premier films avec  s=star wars
+# 8 -Afficher les 10 premier films avec  s=star wars
 Utiliser **s=...** **s=star wars**
 ```js
 const key = "efdc2275";

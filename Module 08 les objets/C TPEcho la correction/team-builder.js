@@ -42,14 +42,14 @@ const afficherEquipeHTML=()=>{
     let i =0;
     for (let equipe of entreprise.equipes){
         // select equipe
-        let option = document.createElement('option');
+        const option = document.createElement('option');
         option.value= i;
         option.innerText=equipe.nom;
         selectE.appendChild(option);
         // ---
         const clone = template.content.cloneNode(true);
         clone.querySelector("table").setAttribute('data-indice',i);
-        let h3 = clone.querySelector("h3");
+        const h3 = clone.querySelector("h3");
         h3.innerHTML= equipe.nom;
         btnDelEquipe = clone.querySelector('.btn-danger');
         btnDelEquipe.onclick=(evt)=>{
@@ -57,6 +57,23 @@ const afficherEquipeHTML=()=>{
             entreprise.equipes.splice(indice,1);
             afficherEquipeHTML();
         }
+        const sel = clone.querySelector('.form-select');
+        const tabP = entreprise.personnes;
+        //const tabP =entreprise.personnes.filter(p => equipe.personnes.find(c => p.id === c.id));
+        for (let p of tabP){
+            let option2 = document.createElement('option');
+            option.value= p.id;
+            option.innerText=`${p.prenom} ${p.nom}`;
+            sel.appendChild(option);
+        }
+        sel.onchange=(event)=>{
+            let id = 2;
+            console.log('a');
+            console.log(event.target.value);
+        //p = entreprise.personnes.find(c => id === c.id)   
+        }
+        //equipe.personnes.find(c => p.id === c.id)
+        
         // les personnes
         let depotPersonne = clone.querySelector('.tbodyEquipe');
         const templatePersonne = document.getElementById("templateEquipePersonne");
@@ -104,9 +121,10 @@ const afficherPersonneHTML=()=>{
         btnDelPersonne.onclick=(evt)=>{
             let i = evt.target.closest('tr').dataset.indice;
             console.log(entreprise.personnes[i].id);
-            //let info = entreprises.equipes.map( e => )
+            let id = entreprise.personnes[i].id;
             entreprise.personnes.splice(i,1);
             afficherPersonneHTML();
+            afficherEquipeHTML();
             }
         depot.appendChild(clone);
         i++;
@@ -119,6 +137,7 @@ document.getElementById('btnAjouterEquipe').onclick=()=>{
     let equipe = new Equipe(nom);
     entreprise.equipes.push(equipe);
     console.log(entreprise);
+    afficherEquipeHTML();
     afficherEquipeHTML();
 }
 document.getElementById('btnAjouterPersonne').onclick=()=>{
@@ -134,6 +153,7 @@ document.getElementById('btnAjouterPersonne').onclick=()=>{
     afficherPersonneHTML();
     if (indiceEquipe != -1){
         entreprise.equipes[indiceEquipe].personnes.push(p);
-        afficherEquipeHTML();
+        
     }
+    afficherEquipeHTML();
 }
