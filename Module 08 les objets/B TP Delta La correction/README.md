@@ -1,4 +1,6 @@
 # TP Delta Domotique CORRECTION
+![alt text](../../c.webp)  
+
 **live preview** :  
 [Tester le TP Delta](https://www.sevenvalley.fr/tp-javascript/tpd) 
 
