@@ -80,7 +80,7 @@ utiliser <code>.filter</code> et <code>.find</code>
 
 **Excercice 3**   
 Créer le tableau  **majeurs** à partir de personnes  
-utiliser <code>.filer</code>
+utiliser <code>.fitler</code>
 ```js
         const personnes =[
         {id:1,nom:'BRAD',prenom:'PITT',age:18},
