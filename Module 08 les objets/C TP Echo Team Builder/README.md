@@ -29,7 +29,7 @@ const personne ={
 
 **Equipe :**
 ```js
-const personne ={
+const equipe ={
     id: '23',
     nom: 'Team A'
     personne:[
