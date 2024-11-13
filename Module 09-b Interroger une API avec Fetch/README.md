@@ -11,7 +11,7 @@ La fonction asynchrone reprend ensuite puis renvoie la valeur de résolution.
 - Le mot-clé **await** est uniquement valide au sein des fonctions asynchrones.  
 
 ```js
-const go async ()=>{
+const go = async ()=>{
     const response = await fetch("https://swapi.dev/api/people/1");
     // on récupère la partie JSON de la response
     const data = await response.json(); 
