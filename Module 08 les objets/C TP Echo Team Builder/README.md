@@ -98,7 +98,7 @@ utiliser <code>.find</code>
 
 **Excercice 4**  
 Créer le tableau  **majeurs** à partir de personnes  
-1 - Calucler le Total avec <code>.map</code>
+1 - Calucler le Total avec <code>.map</code>  
 2 - calculer le Toatl avec <code>.reduce</code>
 ```js
 const items = [
