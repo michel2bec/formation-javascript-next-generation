@@ -26,7 +26,7 @@ A chaque fois que je crée une fonction avec <code>await</code>, je préfixe la 
 const getPersonne =async(id)=>{
   const response = await fetch("https://swapi.dev/api/people/"+id);
   const data = await response.json();
-  console.log(data);
+  return data;
 }
 document.getElementById("btnSWAPI").onclick = async () => {
   const personne = await getPersonne(1);
