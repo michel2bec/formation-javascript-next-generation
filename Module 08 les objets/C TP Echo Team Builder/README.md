@@ -73,8 +73,41 @@ utiliser <code>.filter</code> et <code>.find</code>
         {id:3,nom:'Angelina',prenom:'Jolie',age:16}
     ];
 // const dejaClients =[
-    // {id:1,nom:'BRAD',prenom:'PITT'},
-    // {id:3,nom:'Angelina',prenom:'Jolie'},
-      
+//     {id:1,nom:'BRAD',prenom:'PITT'},
+//     {id:3,nom:'Angelina',prenom:'Jolie'},
+//     ];
+```
+
+**Excercice 3**
+Créer le tableau  **majeurs** à partir de personnes  
+utiliser <code>.find</code>
+```js
+        const personnes =[
+        {id:1,nom:'BRAD',prenom:'PITT',age:18},
+        {id:2,nom:'TOM',prenom:'CRUISE',age:15},
+        {id:3,nom:'Angelina',prenom:'Jolie',age:16},
+        {id:4,nom:'TOM',prenom:'CRUISE',age:61}
+    ];
+   
+// const majeurs =[
+//     {id:1,nom:'BRAD',prenom:'PITT',age:18},
+//     {id:4,nom:'TOM',prenom:'CRUISE',age:61}
+//     ];
+```
+
+**Excercice 4**
+Créer le tableau  **majeurs** à partir de personnes  
+utiliser <code>.find</code>
+```js
+        const personnes =[
+        {id:1,nom:'BRAD',prenom:'PITT',age:18},
+        {id:2,nom:'TOM',prenom:'CRUISE',age:15},
+        {id:3,nom:'Angelina',prenom:'Jolie',age:16},
+        {id:4,nom:'TOM',prenom:'CRUISE',age:61}
+    ];
+   
+// const majeurs =[
+//     {id:1,nom:'BRAD',prenom:'PITT',age:18},
+//     {id:4,nom:'TOM',prenom:'CRUISE',age:61}
 //     ];
 ```
