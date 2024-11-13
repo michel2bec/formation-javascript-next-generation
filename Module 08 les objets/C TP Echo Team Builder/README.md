@@ -38,3 +38,43 @@ const personne ={
     ]
 }
 ```
+
+**Excercice 1**
+Créer le tableau  **nouveauClients** à partir de personnes et clients  
+utiliser <code>.filter</code> et <code>.find</code>
+```js
+    const personnes =[
+        {id:1,nom:'BRAD',prenom:'PITT'},
+        {id:2,nom:'TOM',prenom:'CRUISE'},
+        {id:3,nom:'Angelina',prenom:'Jolie'},
+        {id:4,nom:'Tom',prenom:'CRUISE'}
+    ];
+    const clients =[
+        {id:1,nom:'BRAD',prenom:'PITT'},
+        {id:3,nom:'Angelina',prenom:'Jolie',age:16}
+    ];
+// const nouveauClients =[
+//         {id:2,nom:'TOM',prenom:'CRUISE'},
+//         {id:4,nom:'Tom',prenom:'CRUISE'}
+//     ];
+```
+**Excercice 2**
+Créer le tableau  **dejaClients** à partir de personnes et clients  
+utiliser <code>.filter</code> et <code>.find</code>
+```js
+    const personnes =[
+        {id:1,nom:'BRAD',prenom:'PITT'},
+        {id:2,nom:'TOM',prenom:'CRUISE'},
+        {id:3,nom:'Angelina',prenom:'Jolie'},
+        {id:4,nom:'Tom',prenom:'CRUISE'}
+    ];
+    const clients =[
+        {id:1,nom:'BRAD',prenom:'PITT'},
+        {id:3,nom:'Angelina',prenom:'Jolie',age:16}
+    ];
+// const dejaClients =[
+    // {id:1,nom:'BRAD',prenom:'PITT'},
+    // {id:3,nom:'Angelina',prenom:'Jolie'},
+      
+//     ];
+```
