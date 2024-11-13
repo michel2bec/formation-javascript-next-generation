@@ -58,6 +58,7 @@ const afficherEquipeHTML=()=>{
             afficherEquipeHTML();
         }
         const sel = clone.querySelector('.form-select');
+        /*
         const tabP = entreprise.personnes;
         //const tabP =entreprise.personnes.filter(p => equipe.personnes.find(c => p.id === c.id));
         for (let p of tabP){
@@ -73,7 +74,7 @@ const afficherEquipeHTML=()=>{
         //p = entreprise.personnes.find(c => id === c.id)   
         }
         //equipe.personnes.find(c => p.id === c.id)
-        
+        */
         // les personnes
         let depotPersonne = clone.querySelector('.tbodyEquipe');
         const templatePersonne = document.getElementById("templateEquipePersonne");
