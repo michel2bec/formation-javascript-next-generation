@@ -38,8 +38,8 @@ const personne ={
     ]
 }
 ```
-
-**Excercice 1**
+## EXERCICES
+**Excercice 1**  
 Créer le tableau  **nouveauClients** à partir de personnes et clients  
 utiliser <code>.filter</code> et <code>.find</code>
 ```js
@@ -58,7 +58,7 @@ utiliser <code>.filter</code> et <code>.find</code>
 //         {id:4,nom:'Tom',prenom:'CRUISE'}
 //     ];
 ```
-**Excercice 2**
+**Excercice 2**  
 Créer le tableau  **dejaClients** à partir de personnes et clients  
 utiliser <code>.filter</code> et <code>.find</code>
 ```js
@@ -78,7 +78,7 @@ utiliser <code>.filter</code> et <code>.find</code>
 //     ];
 ```
 
-**Excercice 3**
+**Excercice 3**  
 Créer le tableau  **majeurs** à partir de personnes  
 utiliser <code>.find</code>
 ```js
