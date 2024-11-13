@@ -18,7 +18,7 @@ const personne = {"prenom":"Brad","nom":"PITT"};
 # 2 - Parcourir un objet ou plutot un JSON
 **avec for + in**
 ```js
-for ( let attribut of personne){
+for ( let attribut in personne){
     console.log( attribut); // prenom ..nom
     // un objet c'est aussi un tableau
     console.log(personne[attribut]); // Brad ..PITT
