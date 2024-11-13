@@ -78,7 +78,7 @@ utiliser <code>.filter</code> et <code>.find</code>
 //     ];
 ```
 
-**Excercice 3**  
+**Excercice 3**   
 Créer le tableau  **majeurs** à partir de personnes  
 utiliser <code>.find</code>
 ```js
@@ -95,19 +95,18 @@ utiliser <code>.find</code>
 //     ];
 ```
 
-**Excercice 4**
+
+**Excercice 4**  
 Créer le tableau  **majeurs** à partir de personnes  
-utiliser <code>.find</code>
+1 - Calucler le Total avec <code>.map</code>
+2 - calculer le Toatl avec <code>.reduce</code>
 ```js
-        const personnes =[
-        {id:1,nom:'BRAD',prenom:'PITT',age:18},
-        {id:2,nom:'TOM',prenom:'CRUISE',age:15},
-        {id:3,nom:'Angelina',prenom:'Jolie',age:16},
-        {id:4,nom:'TOM',prenom:'CRUISE',age:61}
-    ];
-   
-// const majeurs =[
-//     {id:1,nom:'BRAD',prenom:'PITT',age:18},
-//     {id:4,nom:'TOM',prenom:'CRUISE',age:61}
-//     ];
+const items = [
+  { name: 'Apple', price: 1 },
+  { name: 'Orange', price: 2 },
+  { name: 'Mango', price: 3 },
+];
+
+let totalPrice = 0;
+
 ```
