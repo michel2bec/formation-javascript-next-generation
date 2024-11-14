@@ -39,7 +39,15 @@ let personnes = [
 ```js
 for (let attribut in data){
     console.log(attribut);
-    console.log(attribut[data]);
+    console.log(data[attribut]);
     
 }
+```
+
+## Ou bien Object.keys
+```js
+ Object.keys(data).map( attribut => {
+    console.log(attribut);
+    console.log(data[attribut]);
+   }
 ```
