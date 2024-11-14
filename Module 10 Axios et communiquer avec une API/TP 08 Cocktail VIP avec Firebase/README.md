@@ -4,7 +4,7 @@
 ## Objectifs
 ![alt text](../tp8.webp)
 - Ajouter une personne dans Real Time data base.  
-- Afficher la liste de personnnes avec useEffect au démarrage.  
+- Afficher la liste de personnnes au démarrage.  
 - Enlever la personne de la liste. 
 - Modifier l'état de la personne.  
 
