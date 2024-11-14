@@ -28,30 +28,30 @@ export default function App() {
     const poids = e.target.poids.value;
     const taille = e.target.taille.value;
     e.target.reset(); // vider les champs input
-    const imc = poids/ (taille* taille);
+    const imc = parseFloat(poids)/ (parseFloat(taille)* parseFloat(taille));
     info.imc = imc.toFixed(1);
     //let tranche ='';
     if (imc < 18.5){
       info.tranche ='maigreur';
-      let poids = 18.5 * taille * taille;
+      let poids = 18.5 * parseFloat(taille) * parseFloat(taille);
       info.conseil = "objectif poids :"+poids.toFixed(1);
     }else if( imc < 25){
       // 18.5 < imc < 25
       info.tranche ='normal';
     }else if( imc < 30){
       info.tranche ='surpoids';
-      let poids = 25 * taille * taille;
+      let poids = 25 * parseFloat(taille) * parseFloat(taille);
       info.conseil = "objectif poids :"+poids.toFixed(1);
     }else if( imc < 35){
       info.tranche ='obesité';
-      let poids = 25 * taille * taille;
+      let poids = 25 * parseFloat(taille) * parseFloat(taille);
       info.conseil = "objectif poids :"+poids.toFixed(1);
     } else if( imc < 40){
-      let poids = 25 * taille * taille;
+      let poids = 25 * parseFloat(taille) * parseFloat(taille);
       info.conseil = "objectif poids :"+poids.toFixed(1);
       info.tranche ='obesité sévère';
     } else {
-      let poids = 25 * taille * taille;
+      let poids = 25 * parseFloat(taille) * parseFloat(taille);
       info.conseil = "objectif poids :"+poids.toFixed(1);
       info.tranche ='obesité massive';
     }
@@ -68,7 +68,7 @@ export default function App() {
         <input name="taille"  className="form-control" placeholder="Taille en m." />
         <br /><br />
         <button type="submit" className="btn btn-success">
-        <i class="fa-solid fa-calculator"></i>
+        <i className="fa-solid fa-calculator"></i>
         </button>
       </form>
       
