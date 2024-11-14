@@ -76,8 +76,7 @@ axios.delete(url)
 ```js
 const id = "-OB5neA070M-9UiT_0bZ";
 const url = `${dbFire}${noeud}/${id}.json`;
-const film = { year: "1901" };
-const response = await axios.delete(url, film);
+const response = await axios.delete(url);
 console.log(response.data);
 ```
     
